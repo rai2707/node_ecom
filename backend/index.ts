@@ -1,10 +1,10 @@
 import express from 'express';
 import { sequelize } from './config/db';
 import userRouter from './routes/userRoutes';
+var cors = require('cors')
 
 const app = express();
 app.use(express.json());
-var cors = require('cors')
 app.use(cors())
 
 const PORT = 2000;

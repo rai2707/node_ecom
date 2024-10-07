@@ -3,7 +3,7 @@ export const sequelize = new Sequelize(
     "postgres://postgres:Shivam@321@localhost:5432/demo",
     {
         dialect: "postgres",
-    }
+    }                                       
 )
 
 sequelize
